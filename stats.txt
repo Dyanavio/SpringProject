@@ -1,0 +1,10 @@
+Method: sing
+	> Total times called: 4
+		- 1) Elapsed time: 3036 ms
+		- 2) Elapsed time: 4672 ms
+		- 3) Elapsed time: 9219 ms
+		- 4) Elapsed time: 1253 ms
+Method: greetings
+	> Total times called: 2
+		- 1) Elapsed time: 7758 ms
+		- 2) Elapsed time: 9620 ms
