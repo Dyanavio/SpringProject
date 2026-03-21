@@ -53,12 +53,6 @@ class StatsAspect
     private StopWatch stopwatch = new StopWatch();
     private final String FILE_NAME = "stats.txt";
 
-    public StatsAspect()
-    {
-
-    }
-
-
     @Before("execution(* org.example.springproject.HelloController.*(..))")
     public void logBeforeMethod(JoinPoint joinPoint)
     {
